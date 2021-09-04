@@ -4,7 +4,7 @@
   display: flex;
   cursor: move;
   overflow: hidden;
-  background-color: #fff !important;
+  background-color: black !important; //figmaColor
   background-size: 50px 50px;
   background-image:
           linear-gradient(0deg, transparent 24%, rgba(100, 100, 100, 0.05) 25%,
@@ -89,7 +89,7 @@
     height: 15px;
     background: rgba(white,0.1);
     &:hover,&.selected {
-      background: rgb(192,255,0);
+      background: #00c0ff;
     }
   }
 

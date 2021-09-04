@@ -18,11 +18,13 @@ class DragWrapper extends React.Component {
   render() {
     const { isDragging, connectDragSource, children, style } = this.props;
     const opacity = isDragging ? 0.4 : 1;
-
+    
     return (
       connectDragSource(
-        <div style={{ ...style, opacity }}>
-          {children}
+        <div>
+          <div style={{ ...style, opacity }}>
+            {children}
+          </div>
         </div>
       )
     );

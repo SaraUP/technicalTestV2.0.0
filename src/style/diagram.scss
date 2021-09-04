@@ -345,14 +345,68 @@
 
 .nodes-panel {
   flex-direction: column;
-  background-color: transparent;
-  padding: 1.5rem;
+  padding: 3rem;
 
   .node-wrapper {
     margin-bottom: 1rem;
 
     .basic-node {
-      width: 120px;
+      background-position: center;
+      width: 100px;
+      height: 50px;
+      background-repeat: no-repeat;
+      background-image: url("https://cdn.discordapp.com/attachments/725458549865709582/883829532631658597/text_preview_rev_1_1.png");
+    }
+  }
+}
+
+.nodes-panel1 {
+  flex-direction: column;
+  padding: 3rem;
+
+  .node-wrapper {
+    margin-bottom: 1rem;
+
+    .basic-node {
+      background-position: center;
+      width: 100px;
+      height: 90px;
+      background-repeat: no-repeat;
+      background-image: url("https://cdn.discordapp.com/attachments/725458549865709582/883726964542803998/rds_1.png");
+    }
+  }
+}
+
+.nodes-panel2 {
+  flex-direction: column;
+  padding: 3rem;
+
+  .node-wrapper {
+    margin-bottom: 1rem;
+
+    .basic-node {
+      background-position: center;
+      width: 100px;
+      height: 90px;
+      background-repeat: no-repeat;
+      background-image: url("https://cdn.discordapp.com/attachments/725458549865709582/883725698479566868/ecs_2_1.png");
+    }
+  }
+}
+
+.nodes-panel3 {
+  flex-direction: column;
+  padding: 3rem;
+
+  .node-wrapper {
+    margin-bottom: 1rem;
+
+    .basic-node {
+      background-position: center;
+      width: 100px;
+      height: 90px;
+      background-repeat: no-repeat;
+      background-image: url("https://cdn.discordapp.com/attachments/725458549865709582/883731616806092881/elasticload_preview_rev_2-triangle_1.png");
     }
   }
 }
@@ -378,15 +432,13 @@
 }
 
 .basic-node {
-  background-color: rgb(30,30,30);
-  border-radius: 5px;
+  background-color: rgb(30,30,30);border-radius: 5px;
   font-family:Arial;
   color: white;
   border: solid 2px black;
   overflow: visible;
   font-size: 12px;
   box-shadow: 0 0 10px rgba(black,0.5);
-  width: 120px;
 
   .title{
     background: rgba(black,0.3);
@@ -451,4 +503,23 @@ img {
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
+}
+
+
+//FIGMA Panel Node
+.figmaText {
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  width:180px;
+  margin: 0 auto;
+}
+
+.figmaText2 {
+  color: white;
+  font-size: 17px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 }

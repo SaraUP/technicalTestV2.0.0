@@ -21,8 +21,64 @@ const target = {
 
         let node;
 
-        if (item.type === 'imagenode') {
-            node = new ImageNodeModel('Image Node', 'rgb(124, 28, 120)', {
+        //RDS
+        if (item.type === 'imagenode1') {
+            node = new ImageNodeModel('Image Node1', 'Transparent', {
+                title: '',
+                body: '',
+                video: {
+                    url: ''
+                },
+                image: {
+                    src: '',
+                    alt: ''
+                },
+                info: {
+                    title: '',
+                    body: ''
+                }
+            });
+
+        //ECS
+        } else if (item.type === 'imagenode2') {
+            node = new ImageNodeModel('Image Node2', 'Transparent', {
+                title: '',
+                body: '',
+                video: {
+                    url: ''
+                },
+                image: {
+                    src: '',
+                    alt: ''
+                },
+                info: {
+                    title: '',
+                    body: ''
+                }
+            });
+        
+        //Elastic Load B
+        } else if (item.type === 'imagenode3') {
+            node = new ImageNodeModel('Image Node3', 'Transparent', {
+                title: '',
+                body: '',
+                video: {
+                    url: ''
+                },
+                image: {
+                    src: '',
+                    alt: ''
+                },
+                info: {
+                    title: '',
+                    body: ''
+                }
+            });
+        }
+
+        //Texto editable
+        else{ 
+            node = new ImageNodeModel('Image Text', 'Transparent', {
                 title: '',
                 body: '',
                 video: {
